@@ -1,3 +1,4 @@
+export const maxDuration = 60;
 import { NextResponse, NextRequest } from "next/server";
 import { DEFAULT_MODEL, sunoApi } from "@/lib/SunoApi";
 import { corsHeaders } from "@/lib/utils";
